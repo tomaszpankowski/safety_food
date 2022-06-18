@@ -9,7 +9,7 @@ var appCfg ={
         {navItem:false, path:"/register",name:"Register",view:"app/views/register.html",backLink:"/login"},
         {navItem:false, path:"/privacy",name:"Privacy",view:"app/views/privacy.html"}  
     ],
-    errRoute: {view:"app/views/privacy.html"}
+    errRoute: {view:"app/views/error.html"}
 };
 
 angular.module("app",["ngRoute","ngSanitize"]);
